@@ -1,0 +1,8 @@
+.splashVideo{
+    width: 100%;
+    height: 600px;
+
+    @media screen and ( max-width: 900px ) {
+        height: 350px;
+    }
+}

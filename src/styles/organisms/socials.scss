@@ -1,0 +1,18 @@
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding-bottom: 30px;
+
+    .socialContent{
+        background-color: #FFFFFF;
+        padding: 10px 12px;
+        margin: 0 5px;
+        border-radius: 25px;
+    }
+
+    .socialContent:hover{
+        background-color: #F96828;
+        color: white;
+    }
+}
