@@ -5,7 +5,7 @@ var path = require( "path" );
 var port;
 var server;
 
-var port = process.env.port || 3030;
+var port = $PORT || 3030;
 
 app.get( "*", function appGet( req, res ){
     res.sendFile( path.resolve( "./index.html" ) );
