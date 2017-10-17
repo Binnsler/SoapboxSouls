@@ -5,9 +5,9 @@
   "repository": "git@github.com:Binnsler/SoapboxSouls.git",
   "main": "index.js",
   "scripts": {
-    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "prod": "NODE_ENV=production node server.js",
-    "webpack": "webpack -p"
+    "start": "NODE_ENV=production node server.js",
+    "build": "webpack -p",
+    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
   "engines":{
       "node": "v6.11.x",
