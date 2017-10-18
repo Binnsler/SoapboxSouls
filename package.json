@@ -5,7 +5,7 @@
   "repository": "git@github.com:Binnsler/SoapboxSouls.git",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=production node server.js",
+    "start": "npm install NODE_ENV=production node server.js",
     "build": "webpack -p",
     "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
