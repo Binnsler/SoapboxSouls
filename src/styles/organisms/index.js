@@ -3,3 +3,4 @@
 @import "styles/organisms/member.scss";
 @import "styles/organisms/socials.scss";
 @import "styles/organisms/youtube.scss";
+@import "styles/organisms/header.scss";

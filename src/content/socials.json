@@ -6,5 +6,9 @@
     {
         "url": "https://www.youtube.com/channel/UCCTcM33mbYR8Gw6jILZ5O-g",
         "image": "/src/content/pics/youtube.png"
+    },
+    {
+        "url": "https://www.instagram.com/soapboxsouls/",
+        "image": "/src/content/pics/instagram.png"
     }
 ]

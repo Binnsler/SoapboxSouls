@@ -11,10 +11,18 @@
     }
 
     img{
+        width: 100%;
+        max-width: 400px;
+        height: 100%;
         margin: 0 auto;
     }
 
-    p{
-        padding: 20px;
+    .text-container{
+        max-width: 800px;
+        
+        p{
+            padding: 20px;
+        }
     }
+
 }

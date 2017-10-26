@@ -11,7 +11,7 @@ import YouTube from "components/organisms/YouTube.js";
 
 // Content
 import Copy from "content/copy.json";
-import sliderPics from "content/pics/sliderPics.json";
+import sliderPics from "content/sliderPics.json";
 import members from "content/members.json";
 
 function Home(){
@@ -27,6 +27,11 @@ function Home(){
             <Callout text={ Copy.intro } color="#000000" textColor="#FFFFFF"></Callout>
             <SocialMedia/>
             <YouTube src={ Copy.video }/>
+            <Callout text={ Copy.cd } color="#F96828" textColor="#000000" buttons={ [
+                { "url": "https://store.cdbaby.com/cd/soapboxsouls2",
+                  "text": "Get Album"
+                }
+            ] }/>
             <ul>
                 { members.map(
                     ( member, i ) => <Member data={ member } key={ i }/>

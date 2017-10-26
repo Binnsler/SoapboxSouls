@@ -1,6 +1,9 @@
 // Libraries
 import React from "react";
 
+// Content
+import Copy from "content/copy.json";
+
 // Lodash
 import {
     filter,
@@ -12,7 +15,8 @@ import {
 function Header(){
     return(
         <div className="header">
-            <h1>Header</h1>
+            <h1>-Soapbox Souls-</h1>
+            <p>{ Copy.oneLiner }</p>
         </div>
     );
 }

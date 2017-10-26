@@ -5,7 +5,9 @@ function Member( props ){
     return (
         <li className="member">
             <img src={ props.data.profilePic }/>
-            <p>{ props.data.bio }</p>
+            <div className="text-container">
+                <p>{ props.data.bio }</p>
+            </div>
         </li>
     );
 }
