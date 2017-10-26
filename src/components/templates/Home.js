@@ -24,6 +24,7 @@ function Home(){
                 }
             ] }/>
             <CenteredImage img="/src/content/pics/logo.png" color="#000000"></CenteredImage>
+            <iframe src="https://open.spotify.com/embed/track/2R7MPezySFwtGwxqH48yAz" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
             <Callout text={ Copy.intro } color="#000000" textColor="#FFFFFF"></Callout>
             <SocialMedia/>
             <YouTube src={ Copy.video }/>
