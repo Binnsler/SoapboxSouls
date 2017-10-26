@@ -1,0 +1,19 @@
+.spotify{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media screen and ( min-width: 900px ) {
+        flex-direction: row;
+    }
+
+    iframe{
+        width: 100%;
+        border: 0;
+        height: 80px;
+
+        &:not(last){
+            padding-bottom: 4px;
+        }
+    }
+}

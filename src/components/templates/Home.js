@@ -8,7 +8,7 @@ import Callout from "components/organisms/Callout.js";
 import Member from "components/organisms/Member.js";
 import SocialMedia from "components/organisms/SocialMedia.js";
 import YouTube from "components/organisms/YouTube.js";
-
+import Spotify from "components/organisms/Spotify.js";
 // Content
 import Copy from "content/copy.json";
 import sliderPics from "content/sliderPics.json";
@@ -18,13 +18,13 @@ function Home(){
     return(
         <div className="home">
             <SplashSlider images={ sliderPics }></SplashSlider>
-            <Callout text={ Copy.nextGig } color="#F96828" textColor="#000000" buttons={ [
+            <Spotify/>
+            <Callout text={ Copy.nextGig } color="#5E2A61" textColor="#FFFFFF" buttons={ [
                 { "url": "http://livefromcenterstage.com/product/soapbox-souls-nov-18-7pm-live-from-center-stage/",
                   "text": "Get Tickets"
                 }
             ] }/>
             <CenteredImage img="/src/content/pics/logo.png" color="#000000"></CenteredImage>
-            <iframe src="https://open.spotify.com/embed/track/2R7MPezySFwtGwxqH48yAz" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
             <Callout text={ Copy.intro } color="#000000" textColor="#FFFFFF"></Callout>
             <SocialMedia/>
             <YouTube src={ Copy.video }/>
