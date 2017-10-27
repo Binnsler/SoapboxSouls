@@ -5,6 +5,7 @@ import { Switch, Route } from "react-router-dom";
 // Components
 import Home from "components/templates/Home.js";
 import Header from "components/templates/Header.js";
+import Footer from "components/templates/Footer.js";
 
 function Main(){
     return(
@@ -13,6 +14,7 @@ function Main(){
             <Switch>
                 <Route exact path="/" component={ Home }/>
             </Switch>
+            <Footer/>
         </main>
     );
 }

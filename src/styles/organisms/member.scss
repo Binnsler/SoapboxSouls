@@ -2,8 +2,10 @@
     display: flex;
     background-color: #FFFFFF;
 
-    &:not(:last-child){
-        margin-bottom: 10px;
+    @media screen and ( min-width: 900px ) {
+        &:not(:last-child){
+            margin-bottom: 10px;
+        }
     }
 
     @media screen and ( max-width: 900px ) {
@@ -19,7 +21,7 @@
 
     .text-container{
         max-width: 800px;
-        
+
         p{
             padding: 20px;
         }
