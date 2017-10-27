@@ -25,10 +25,10 @@ function Home(){
                 }
             ] }/>
             <CenteredImage img="/src/content/pics/logo.png" color="#000000"></CenteredImage>
-            <Callout text={ Copy.intro } color="#000000" textColor="#FFFFFF"></Callout>
+            <Callout text={ Copy.intro } color="#5E2A61" textColor="#FFFFFF"></Callout>
             <SocialMedia/>
             <YouTube src={ Copy.video }/>
-            <Callout text={ Copy.cd } color="#F96828" textColor="#000000" buttons={ [
+            <Callout text={ Copy.cd } color="#5E2A61" textColor="#FFFFFF" buttons={ [
                 { "url": "https://store.cdbaby.com/cd/soapboxsouls2",
                   "text": "Get Album"
                 }
