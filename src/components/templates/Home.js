@@ -19,11 +19,6 @@ function Home(){
         <div className="home">
             <SplashSlider images={ sliderPics }></SplashSlider>
             <Spotify/>
-            <Callout text={ Copy.nextGig } color="#5E2A61" textColor="#FFFFFF" buttons={ [
-                { "url": "http://livefromcenterstage.com/product/soapbox-souls-nov-18-7pm-live-from-center-stage/",
-                  "text": "Get Tickets"
-                }
-            ] }/>
             <CenteredImage img="/src/content/pics/logo.png" color="#000000"></CenteredImage>
             <Callout text={ Copy.intro } color="#5E2A61" textColor="#FFFFFF"></Callout>
             <SocialMedia/>
